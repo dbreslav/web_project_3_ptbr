@@ -1,7 +1,11 @@
-@font-face {
-    font-family: inter;
-    src:url(../macintoshHD  )
+@import url(normalize.css);
+
+@media only screen and (max-width: 1280px) {
+   /* Styles here */
 }
-page {
-    font-family: ;
+
+body {
+    background-color: #2A2C2F;
+    font-family: "Inter", sans-serif, 
 }
+
