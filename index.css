@@ -4,8 +4,25 @@
    /* Styles here */
 }
 
+
+
 body {
     background-color: #2A2C2F;
     font-family: "Inter", sans-serif, 
 }
+.button {
+    background: #0278FE;
+}
 
+.button:hover {
+    background: #0063D2;
+}
+.cover__button:hover .cover{
+    background: #2A2C2F;
+    opacity: 0.8;
+
+}
+.cover:hover .cover__background{
+    background: #2A2C2F;
+    opacity: 0.8;
+}
