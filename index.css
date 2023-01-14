@@ -8,8 +8,93 @@
 
 body {
     background-color: #2A2C2F;
-    font-family: "Inter", sans-serif, 
+    font-family: "Inter", sans-serif; 
+    position: relative;
+ /*at 1280 px*/
+width: 1280px;
+height: 7473px;
+
+
 }
+
+.logo {
+
+     /*at 1280 px*/
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    left: 505px;
+    top: 34px;
+
+      /* at 768 px
+      position: absolute;
+      width: 270px;
+      height: 70px;
+      left: 249px;
+      top: 34px; */
+
+
+}
+.lead {
+    position:absolute;
+    /*at 1280 px*/
+    width: 984px;
+    height: 983px;
+    left: 148px;
+    top: 194px;
+
+}
+
+.lead__title {
+ /*at 1280 px*/
+    position: absolute;
+    width: 793px;
+    height: 200px;
+    left: 243px;
+    top: 194px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    /* or 104% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+ 
+.lead__subtitle {
+    /*at 1280 px*/
+    position: absolute;
+    width: 720px;
+    height: 72px;
+    left: 280px;
+    top: 426px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+ .lead__image {
+    position: absolute;
+    width: 984px;
+    height: 615px;
+    left: 148px;
+    top: 562px;
+    background: #000000;
+    mix-blend-mode: hue;
+ }
 .button {
     background: #0278FE;
 }
