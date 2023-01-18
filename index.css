@@ -1,30 +1,25 @@
 @import url(normalize.css);
 
-@media only screen and (max-width: 1280px) {
+@media only screen and ( /* no greater than... */max-width: 1280px) {
    /* Styles here */
 }
 
+@media only screen and ( /* not smaller than... */ min-width: 1280px)
+    {}
 
-
-body {
+.body {
     background-color: #2A2C2F;
     font-family: "Inter", sans-serif; 
-    position: relative;
- /*at 1280 px*/
-width: 1280px;
-height: 7473px;
-
-
+  
 }
 
 .logo {
 
      /*at 1280 px*/
-    position: absolute;
-    width: 270px;
-    height: 70px;
-    left: 505px;
-    top: 34px;
+    max-width: 270px;
+    max-height: 70px;
+    margin: 34px auto 0;
+
 
       /* at 768 px
       position: absolute;
@@ -35,24 +30,21 @@ height: 7473px;
 
 
 }
+
 .lead {
-    position:absolute;
-    /*at 1280 px*/
-    width: 984px;
-    height: 983px;
-    left: 148px;
-    top: 194px;
-
-}
-
+        /* position: absolute; */
+        width: 984px;
+        height: 983px;
+        /* margin: 91px auto 0; */
+        /* top: 194px; */
+        margin: 91px auto 0;
+    }
+    
 .lead__title {
  /*at 1280 px*/
-    position: absolute;
-    width: 793px;
-    height: 200px;
-    left: 243px;
-    top: 194px;
-
+    max-width: 793px;
+    max-height: 200px;
+    margin: 0 auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -61,42 +53,155 @@ height: 7473px;
     /* or 104% */
 
     text-align: center;
-
     color: #FFFFFF;
-
 }
  
 .lead__subtitle {
     /*at 1280 px*/
-    position: absolute;
-    width: 720px;
-    height: 72px;
-    left: 280px;
-    top: 426px;
-    
+    max-width: 720px;
+    max-height: 72px;
+    margin: 32px auto 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 120%;
     /* or 120% */
-    
     text-align: center;
-    
     color: #FFFFFF;
     
 }
  .lead__image {
+     /*at 1280 px*/
     position: absolute;
     width: 984px;
     height: 615px;
     left: 148px;
     top: 562px;
-    background: #000000;
-    mix-blend-mode: hue;
+    filter: grayscale(100%);
  }
+
+ .intro {
+    display: flex;
+    position: absolute;
+    width: 1017px;
+    height: 516px;
+    margin: 90px auto;
+ }
+
+ .intro__title {
+    position: absolute;
+    text-align: start;
+    max-width: 1017px;
+    max-height: 116px;
+    left: 148px;
+    top: 1269px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+
+ }
+  .intro__subtitle {
+    align-items: flex-start;
+    position: absolute;
+    max-width: 722px;
+    max-width: 136px;
+    left: 148px;
+    top: 1425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    color: #FFFFFF;
+
+  }
+.intro__quote {
+    position: absolute;
+    max-width: 722px;
+    max-height: 136px;
+    left: 148px;
+    top: 1425px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.intro__quote-signature {
+    align-items: flex-end;
+    position: absolute;
+    max-width: 722px;
+    max-height: 136px;
+    left: 148px;
+    top: 1425px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.intro__text {
+    position: absolute;
+width: 720px;
+height: 182px;
+left: 148px;
+top: 1603px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+/* or 26px */
+
+
+color: #FFFFFF;
+
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: absolute;
+    max-width: 1184px;
+    max-height: 442px;
+    margin: 92px auto 0;
+    grid-gap: 16px;
+
+}
+.photo-grid__item {
+    
+}
+
 .button {
     background: #0278FE;
+    max-width: 355px;
+    max-height: 48px;
 }
 
 .button:hover {
@@ -110,4 +215,10 @@ height: 7473px;
 .cover:hover .cover__background{
     background: #2A2C2F;
     opacity: 0.8;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
