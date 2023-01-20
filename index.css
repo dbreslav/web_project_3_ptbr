@@ -35,28 +35,21 @@
 }
 
 .lead {
-        /* position: absolute; */
+       
         width: 984px;
         height: 983px;
-        /* margin: 91px auto 0; */
-        /* top: 194px; */
         margin: 91px auto 0;
     }
     
 .lead__title {
- /*at 1280 px*/
+
     max-width: 793px;
     max-height: 200px;
     margin: 0 auto;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 104%;
-    /* or 104% */
-
     text-align: center;
-    color: #FFFFFF;
 }
  
 .lead__subtitle {
@@ -64,18 +57,13 @@
     max-width: 720px;
     max-height: 72px;
     margin: 32px auto 0;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 120%;
-    /* or 120% */
     text-align: center;
-    color: #FFFFFF;
     
 }
  .lead__image {
-     /*at 1280 px*/
     position: absolute;
     max-width: 984px;
     max-height: 615px;
