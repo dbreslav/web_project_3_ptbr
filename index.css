@@ -259,9 +259,17 @@ color: #FFFFFF;
     grid-column: 2;
     grid-row: 3/6;
 }
-.place__buttom {
+.place__buttom {width: 355px;  
+    height: 48px;
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 3;
     
+    
+}
    
+.place__button__paragraph{
+    max-width: 315px;
+    max-height: 22px;
+    text-align: center; 
+    margin: auto;
 }
