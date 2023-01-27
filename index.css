@@ -13,13 +13,10 @@
         width: 21%;
         margin: 34px auto 0;
 
-   
     } 
     
     .lead {
         max-width: 984px;   
-        
-        /* height: 983px; */
         margin: 91px auto 0;
     
     }
@@ -27,7 +24,6 @@
     .lead__title {
     
         max-width: 793px;
-        /* max-height: 200px; */
         margin: 0 auto;
         font-weight: 900;
         font-size: 96px;
@@ -36,11 +32,9 @@
         
     }
     
-    
     .lead__subtitle {
-        /*at 1280 px*/
+ 
         max-width: 720px;
-        /* max-height: 72px; */
         margin: 32px auto 0;
         font-weight: 400;
         font-size: 30px;
@@ -48,10 +42,10 @@
         text-align: center;
         
     }
+
      .lead__image {
     
         max-width: 984px;
-        /* max-height: 615px; */
         margin: 64px 0 0;
         filter: grayscale(100%);
         width: 100%;
@@ -61,19 +55,13 @@
     
         display: flex;
         max-width: 1017px;
-        /* width: 83%; */
-        /* height: 516px; */
         margin: 92px auto 0;
         flex-direction: column;
      }
     
      .intro__title {
-        
-        text-align: start;
-        max-width: 1017px;
-        /* max-height: 116px; */
+       
         margin: 0;
-        overflow-wrap: wrap;
         font-weight: 900;
         font-size: 54px;
         line-height: 107%;
@@ -82,8 +70,6 @@
     
     .intro__quote {
       
-        max-width: 722px;
-        /* max-height: 136px; */
         margin: 40px 410px 0 0;
         font-weight: 400;
         font-size: 24px;
@@ -95,7 +81,7 @@
         text-align: end;
         max-width: 722px;
         /* max-height: 34px; */
-        margin: -10px 0 10px;
+        margin: -10px 0 0;
         font-weight: 400;
         font-size: 24px;
         line-height: 142%;
@@ -104,11 +90,10 @@
     
     .intro__text {
        
-        max-width: 720px;
-        /* max-height: 182px; */
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
+        margin: 32px 0 0;
     
     }
     
@@ -398,40 +383,45 @@
         width: 100%;
         
     }
-    
-    }
-
-    
-
-   
-/* fix this to fit the width: of the page */
-    
-
     .intro {
-        margin: 44px 16px 0;
+        margin: 44px 0 0;
+        padding: 0 16px 0;
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
+        /* flex-wrap: wrap;
+        align-content: flex-start; */
      }
-
-    .intro__title {
+     .intro__title {
     
         font-size: 32px;
         line-height: 109%;
-    
+        
      }
 
-    .intro__quote {
+     .intro__quote {
         font-size: 24px;
-        line-height: 125%;
-        margin: 9px auto 0;
+        line-height: 142%;
+        margin: 9px 0 0;
       }
 
     .intro__quote-signature {
 
-        margin: 15px 0 0 0;
-           
+        margin: 10px 0 0 0;
+      
     }
+    .intro__text {
+        margin: 18px 0 0;
+    
+    } 
+
+    
+    }
+
+    
+
+    
+    
+
+    
 
     .photo-grid {
        
@@ -472,15 +462,7 @@
     }
     }
 
-    /* .intro__text {
-   
-        max-width: 720px;
-        max-height: 182px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
     
-    } */
 
     /* .photo-grid {
        
