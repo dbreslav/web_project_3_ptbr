@@ -219,12 +219,12 @@ line-height: 107%;
     gap: 25px;
     grid-area: [text];
 }
-.place__buttom {
+.place__button {
     
     height: 48px;
     margin-left: 0; 
     text-align: center;
-    grid-area: button;
+    grid-area: [button];
     padding: 0 20px
 
 }
@@ -285,7 +285,7 @@ line-height: 107%;
     margin: 0 auto;
 
 }
-.cover__buttom{
+.cover__button{
     
     height: 48px;
     margin: 32px auto 0;
@@ -301,7 +301,7 @@ line-height: 107%;
 
 
 .footer__copyright {
-    margin: 92px auto 0;
+    margin: 90px auto 0;
     text-align: center;
     padding-bottom: 24px;
 }
@@ -405,6 +405,7 @@ line-height: 107%;
         font-size: 32px;
         line-height: 109%;
         margin: 0 0 30px;
+        max-width: none;
 
     }
     
@@ -423,7 +424,7 @@ line-height: 107%;
     }
     .place__image {
        
-        max-width: 460px;
+        max-width: none;
         width: 100%;
         margin:30px 0 0;
     
@@ -438,13 +439,13 @@ line-height: 107%;
         line-height: 163%;
        
     }
-    .place__buttom {
+    .place__button {
         margin: 0 5% 0;
         font-size: 14px;
         line-height: 17px;
         padding: 0;
     }
-   .cover__buttom {
+   .cover__button {
         margin: 16px auto 0;
    }
    .cover__text{
@@ -534,8 +535,6 @@ line-height: 107%;
     }
     
 
-
-
     .button:hover {
         background: #0063D2;
     }
@@ -550,6 +549,7 @@ line-height: 107%;
         margin: 64px 3% 90px;
         grid-gap: 16px;
     }
+    
    
     .places{
         margin: 0 3% 0;
@@ -566,71 +566,47 @@ line-height: 107%;
     
     .place__title{
         
-        
         font-size: 42px;
         line-height: 110%;
         margin: 0 0 48px;
-        grid-area: [title];
         
     }
-    .place__website {
-        margin: 0 0 48px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        grid-area: [name];
     
-    }
-    .place__url-heading {
-        
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: #AAAAAA;
-    }
     
     .place__artist{
-        font-weight: 400;
+        
         font-size: 18px;
         line-height: 22px;
         margin-top: 8px;
         
     }
     .place__image {
-        
-       
+    
         width: 100%;
         margin:0 auto;
-        grid-area: [image];
     
     }
     
     .place__paragraph {
-        margin: auto;
-        font-weight: 400;
-        font-size: 18px;
+       
+        font-size: 16px;
         line-height: 163%;
-        
-        
+         
     }
     .places__paragraph {
-        /* grid-column: 2;
-        grid-row: 2; */
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        grid-area: [text];
+      
+        gap: 18px;
+       
     }
-    .place__buttom {
+    .place__button {
         
         height: 48px;
-        margin-left: 0; 
+        margin-left: auto;
         text-align: center;
         grid-area: button;
         padding: 0 20px
     
-    } */
+    }  */
     
 }
 
