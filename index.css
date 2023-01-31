@@ -148,14 +148,14 @@ line-height: 107%;
 }
 .place {
     display: grid;
-    grid-column: 1fr 50%;
     grid-template-areas: 
     "title name"
     "image text"
     "button text"
     ". text";
     column-gap: 40px;
-    margin: 0 0 80px;
+    row-gap: 48px;
+    margin: 0;
     width: 100%;
     
 }
@@ -166,16 +166,16 @@ line-height: 107%;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    margin: 0 0 48px;
-    grid-area: [title];
+    margin: 0;
+    grid-area: title;
     
 }
 .place__website {
-    margin: 0 0 48px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    grid-area: [name];
+    grid-area: name;
 
 }
 .place__url-heading {
@@ -199,15 +199,15 @@ line-height: 107%;
     max-width: 460px;
     width: 100%;
     margin:0 auto;
-    grid-area: [image];
+    grid-area: image;
 
 }
 
 .place__paragraph {
-    margin: auto;
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 1.63
     
     
 }
@@ -217,14 +217,14 @@ line-height: 107%;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    grid-area: [text];
+    grid-area: text;
 }
 .place__button {
     
     height: 48px;
     margin-left: 0; 
     text-align: center;
-    grid-area: [button];
+    grid-area: button;
     padding: 0 20px
 
 }
@@ -568,11 +568,11 @@ line-height: 107%;
         
         font-size: 42px;
         line-height: 110%;
-        margin: 0 0 48px;
+        margin: 0;
         
     }
     
-    
+
     .place__artist{
         
         font-size: 18px;
@@ -606,7 +606,7 @@ line-height: 107%;
         grid-area: button;
         padding: 0 20px
     
-    }  */
+    }  
     
 }
 
