@@ -19,3 +19,16 @@
 .button:hover {
     background: #0063D2;
 }
+
+@media only screen and (max-width: 540px)  {
+
+    
+    
+    .button {
+        
+       margin: 0 5% 0;
+        
+    }
+
+}
+

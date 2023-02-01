@@ -5,3 +5,13 @@
     background: #2A2C2F;
     
 }
+
+@media only screen and (max-width: 540px)  {
+
+    
+    .cover__background{
+    
+        height: auto;
+        
+    }
+}
