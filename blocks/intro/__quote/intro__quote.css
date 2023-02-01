@@ -13,3 +13,13 @@
      }
 
 }
+
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+ 
+        
+    .intro__quote {
+        
+        margin: 40px 0 0;
+       
+    }
+}
