@@ -1,10 +1,10 @@
 .place__button {
     
     height: 48px;
-    margin-left: 0; 
+    margin-left: 0;
     text-align: center;
     grid-area: button;
-    padding: 0 20px
+    padding: 0 20px;
 
 }
 @media only screen and (max-width: 540px)  {
