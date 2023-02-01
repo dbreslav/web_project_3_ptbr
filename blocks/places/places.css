@@ -9,3 +9,13 @@
     
 
 }
+
+@media only screen and (max-width: 540px)  {
+
+    .places{
+        
+        gap: 50px;
+        margin: 64px 0 64px;
+        
+     }
+    }

@@ -1,0 +1,9 @@
+
+.footer {
+    margin: 90px auto 0;
+    text-align: center;
+    padding-bottom: 24px;
+    max-width: fit-content;
+    font-size: 14px;
+    line-height: 1.14;
+}

@@ -1,0 +1,15 @@
+.cover__button{
+    
+    height: 48px;
+    margin: 32px auto 0;
+    padding: 0 20px
+}
+
+
+
+
+.cover__button:hover .cover{
+    background: #2A2C2F;
+    opacity: 0.8;
+
+}

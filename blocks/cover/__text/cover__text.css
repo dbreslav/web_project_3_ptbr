@@ -1,0 +1,11 @@
+
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 656px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+

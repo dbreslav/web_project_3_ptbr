@@ -7,3 +7,12 @@
     padding: 0 20px
 
 }
+@media only screen and (max-width: 540px)  {
+
+    .place__button {
+        margin: 0 5% 0;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 0;
+    }
+}
