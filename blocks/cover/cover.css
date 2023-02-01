@@ -1,0 +1,18 @@
+
+.cover{
+    margin: 0 auto 0;
+    max-width: 1184px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.cover:hover .cover__background{
+    background: #2A2C2F;
+    opacity: 0.3;
+}

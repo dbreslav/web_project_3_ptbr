@@ -1,0 +1,8 @@
+
+.intro {
+
+    display: flex;
+    max-width: 1017px;
+    margin: 90px auto 0;
+    flex-direction: column;
+    }
