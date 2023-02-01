@@ -13,3 +13,12 @@
         gap: 7px;
     }
 }
+
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+ 
+ 
+    .place__text {
+        gap: 18px;
+       
+    }
+}
